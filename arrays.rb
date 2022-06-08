@@ -23,3 +23,9 @@ puts fish[0]
 
 #Prints 2nd and last element of primes
 puts "#{primes[1]} and #{primes[6]}"
+
+
+#concat allows you to attach other array elements to self
+puts [ "thing 1" ].concat( ["thing 2"] )
+
+puts [ 1 ].concat( [2], [3, 4, 5] )
