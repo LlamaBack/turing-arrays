@@ -14,3 +14,12 @@ dollar_bills.shift(2)
 
 #Adds 2 elemnts to the beginning of judge_rulings
 judge_rulings.unshift(false, false)
+
+
+
+#Indexing an array starts with 0 for the first element
+#Prints first element in fish
+puts fish[0]
+
+#Prints 2nd and last element of primes
+puts "#{primes[1]} and #{primes[6]}"
